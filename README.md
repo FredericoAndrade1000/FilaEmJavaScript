@@ -1,1 +1,3 @@
 # FilaEmJavaScript
+
+O projeto é um sistema de gerenciamento de filas de atendimento, onde os clientes podem ser adicionados à fila com nome, CPF, data e hora de chegada e removidos da fila para serem atendidos. O sistema também permite a busca por CPF na fila e exibe a posição do cliente na fila, caso esteja presente. O projeto foi implementado utilizando JavaScript e HTML, e inclui uma classe Fila para gerenciar os atendimentos na fila, bem como a classe Atendimento para representar um cliente na fila. Além disso, o projeto inclui funções para obter a data e hora atual, calcular a diferença entre as horas, e atualizar a exibição da fila na interface do usuário.
