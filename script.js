@@ -28,7 +28,7 @@ function realizarAtendimento() {
 
   const tempoEspera = calcularDiferencaHoras(pessoa.hora, obterHoraAtual())
   
-  mensagem.innerHTML = `Próximo a ser atendido(a): " ${pessoa.nome}, chegou ${pessoa.hora} e está sendo atendida ${obterHoraAtual()}. Tempo de espera: ${tempoEspera}`;
+  mensagem.innerHTML = `Próximo a ser atendido(a): ${pessoa.nome}, chegou ${pessoa.hora} e está sendo atendida ${obterHoraAtual()}. Tempo de espera: ${tempoEspera}`;
   mensagem.style.display = "block";
 
   atualizarFila();
